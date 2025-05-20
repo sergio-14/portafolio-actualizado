@@ -1,0 +1,68 @@
+---
+import { Icon } from "astro-icon/components";
+---
+<section id="sobremi" class="flex justify-center h-min w-full relative pt-5 md:px-0 px-3">
+    <span style="transform: rotate(-10deg);" class="absolute w-[200px] h-[250px] lg:h-[200px] lg:w-[250px] rounded-full bg-gradient-to-tr from-luz to-luz1 from-[#00ff00] to-[#00fff2] opacity-15 blur-2xl md:left-70 bottom-0 lg:bottom-0">
+
+    </span>
+    <div class="flex flex-col md:flex-row bg-gradient-to-t from-[#ffffff0c] to-transparent rounded-2xl z-10 p-4 md:p-12 gap-6 container lg:max-w-5xl  md:max-w-2xl">
+        
+        <div class="w-full md:w-full pb-10 md:text-left md:order-1 order-2 ">
+            <h2 class="flex items-center text-2xl md:text-4xl font1 mb-4 text-amber-400">
+                <svg class="size-12 text-white" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                    <path d="M6 21v-2a4 4 0 0 1 4 -4h4">
+                    </path><path d="M15 19l2 2l4 -4"></path>
+                </svg>
+                Sobre Mí
+            </h2>
+            <p class="text-white mb-3 font3 ">
+                Me llamo Sergio Sabino Mamani Calle 
+                Apasionado por la tecnología y su impacto en la educación, <span class="text-[#ffd900]">he liderado proyectos 
+                clave en el sector académico,</span> como el desarrollo del sitio web institucional y un sistema 
+                de gestión para la modalidad de graduación de Universidad. 
+            </p>
+            <p class="text-white mb-3 font3 ">
+                Mi enfoque Full Stack 
+                me <span class="text-[#ffd900]">permite diseñar e implementar soluciones completas</span>, optimizando procesos y mejorando la experiencia 
+                del usuario.
+            </p>
+            <p class="text-white mb-5 font3 ">
+                Como creador de contenido en redes sociales, <span class="text-[#ffd900]">me especializo en desarrollo Frontend y backend 
+                compartiendo tips</span>, herramientas y buenas prácticas para formar e inspirar a la comunidad 
+                que ama el código tanto como yo. 🚀🚀
+            </p>
+            <div class="flex md:justify-end justify-center flex-row flex-wrap gap-2">
+                <div class="button-wrapper md:w-30 w-30 ">
+                    <a href="https://twitter.com/Sergio545867103" target="_blank" class="button justify-center">
+                      Twitter
+                      <Icon name="X_dark" class="w-4 h-4 ms-1" />
+                    </a>
+                </div>
+                <div class="button-wrapper1 md:w-30 w-36 ">
+                    <a href="mailto:elmatadorsergio1234@gmail.com" target="_blank" class="button justify-center">
+                      Correo <Icon name="gmail" class="w-4 h-4 ms-1" />
+                    </a>
+                </div>
+                <div class="button-wrapper2 md:w-45 w-100">
+                    <a href="/assets/perfil/curriculum.pdf" target="_blank" class="button justify-center">
+                        Curriculum Vitae
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-person-fill ms-1" viewBox="0 0 16 16">
+                        <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0m2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755"/>
+                      </svg>
+                    </a>
+                </div>
+                
+              
+            </div>
+        </div>
+        <div class="w-full md:w-1/2 flex justify-center md:order-2 order-1 ">
+            <img 
+                src="assets/img/avatar2.png" 
+                alt="Sobre mí" 
+                class="rounded-lg shadow-lg md:w-80 w-60 h-60 md:h-85 transition-transform duration-300 hover:rotate-8"
+            />
+        </div>
+    </div>
+</section>

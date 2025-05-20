@@ -1,0 +1,80 @@
+---
+import { Icon } from "astro-icon/components";
+---
+<section  id="skills" class="min-h-screen  relative md:pt-12 pt-1  rounded-3xl  w-full mx-auto container lg:max-w-5xl md:max-w-2xl">
+  <p class="font1 md:text-4xl text-2xl  flex items-center text-white py-5 md:ms-12 ms-5 ">
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="text-amber-400 me-4 bi bi-code-slash" viewBox="0 0 16 16">
+      <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+    </svg>
+    Habilidades <span class="text-amber-400 ms-2"> Adquiridas</span> 
+  </p>
+  
+    <div class="grid grid-cols-1 md:grid-cols-2 md:px-0 px-4  gap-4">
+      <!-- Columna 1 -->
+      <div 
+      class=" p-4 rounded-xl shadow text-center text-lg lg:h-80  bg-gradient-to-t from-[#00eeff1e] to-transparent">
+        <p class="font1 text-amber-400 text-1xl py-3 me-2 text-end">
+          Manejo y Aprendiendas
+        </p>
+        <div class=" flex flex-wrap items-center justify-center gap-y-6 gap-x-3">
+            <Icon name="django" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110  hover:bg-slate-900 " />
+            <Icon name="laravel" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 "  />
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 255.93" width="55" height="56" class=" p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 ">
+              <defs>
+                <linearGradient id="pythonBlue" x1="126.14" y1="12.43" x2="128.21" y2="250.5" gradientUnits="userSpaceOnUse">
+                  <stop offset="0" stop-color="#5A9FD4"/>
+                  <stop offset="1" stop-color="#306998"/>
+                </linearGradient>
+                <linearGradient id="pythonYellow" x1="128" y1="11.28" x2="128" y2="250.57" gradientUnits="userSpaceOnUse">
+                  <stop offset="0" stop-color="#FFD43B"/>
+                  <stop offset="1" stop-color="#FFE873"/>
+                </linearGradient>
+              </defs>
+              <path fill="url(#pythonBlue)" d="M126.92 0c-11.63.05-22.8 1.04-32.67 2.79-28.95 5.15-34.2 15.92-34.2 35.72v26.2h68.3v8.73H46.2c-19.93 0-37.42 11.92-42.92 34.59-6.31 26.23-6.59 42.61 0 70.19 4.9 20.82 16.61 34.58 36.54 34.58h24.09v-31.93c0-23.86 20.68-44.64 44.64-44.64h68.16c19.1 0 34.37-15.9 34.37-34.65v-65.14c0-18.5-15.2-31.92-34.37-35.72C157.17.97 138.56-.06 126.92 0Zm-22.09 23.2a12.34 12.34 0 0 1 12.42 12.26 12.34 12.34 0 0 1-12.42 12.4 12.34 12.34 0 0 1-12.4-12.4c0-6.73 5.57-12.26 12.4-12.26Z"/>
+              <path fill="url(#pythonYellow)" d="M254.2 68.56c-4.9-20.81-16.6-34.59-36.52-34.59h-24.1v31.94c0 23.85-20.68 44.63-44.64 44.63h-68.15c-19.1 0-34.37 15.9-34.37 34.64v65.14c0 18.5 15.2 31.91 34.37 35.72 21.96 4.3 43.02 5.1 68.15 0 17.23-3.6 34.36-10.8 34.36-35.72v-26.2h-68.15v-8.73h102.19c19.93 0 27.33-14.17 31.82-34.58 6.32-26.23 6.59-42.6 0-70.18ZM150.87 219.85a12.34 12.34 0 0 1 12.4 12.26 12.34 12.34 0 0 1-12.4 12.4 12.34 12.34 0 0 1-12.42-12.4c0-6.72 5.58-12.26 12.42-12.26Z"/>
+            </svg>
+            <Icon name="javascript" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="typescript" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />            
+            <Icon name="angular" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="astro" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 text-white" />
+            <Icon name="html5" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="css" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="bootstrap" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <svg width="57" height="57" aria-hidden="true" class="p-3 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 "><path fill-rule="evenodd" clip-rule="evenodd" d="M15 0c-4 0-6.5 2-7.5 6 1.5-2 3.25-2.75 5.25-2.25 1.141.285 1.957 1.113 2.86 2.03C17.08 7.271 18.782 9 22.5 9c4 0 6.5-2 7.5-6-1.5 2-3.25 2.75-5.25 2.25-1.141-.285-1.957-1.113-2.86-2.03C20.42 1.728 18.718 0 15 0ZM7.5 9C3.5 9 1 11 0 15c1.5-2 3.25-2.75 5.25-2.25 1.141.285 1.957 1.113 2.86 2.03C9.58 16.271 11.282 18 15 18c4 0 6.5-2 7.5-6-1.5 2-3.25 2.75-5.25 2.25-1.141-.285-1.957-1.113-2.86-2.03C12.92 10.729 11.218 9 7.5 9Z" fill="#38BDF8"></path></svg>
+            <Icon name="git" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="github1" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 text-white" />
+            <Icon name="mariadb" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="postgresql" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="vscode" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="railway_dark" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="openai" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 text-white" />
+            <Icon name="netlify" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 text-white " />
+        </div>
+      </div>
+
+      <!-- Columna 2 con dos filas -->
+      <div class="grid md:grid-rows-2 grid-rows-1 md:pb-0 pb-12 gap-4">
+        <div class="rounded-md pb-5 shadow text-center text-lg bg-gradient-to-t from-[#00ff952c] to-transparent ">
+          <p class="font1 text-amber-400 text-1xl me-6 text-end pt-8 pb-3">
+            Manejo y Aprendiendo
+          </p>
+          <div class=" flex flex-wrap items-center justify-center gap-x-3 gap-y-6">
+            <Icon name="npm" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="docker" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="wordpress" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 text-white" />
+            <Icon name="pinterest" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="nextjs_logo_light" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 text-white" />
+            <Icon name="react" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="mongodb-wordmark" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 text-white " />
+            <Icon name="discord" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="figma" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="svelte" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+            <Icon name="vue" class="size-14 p-1 rounded-md border border-white/10 bg-[#ffffff1f] transition-transform duration-300 hover:scale-110 hover:bg-slate-900 " />
+          </div>
+          
+        </div>
+       
+      </div>
+    </div>
+    
+</section>

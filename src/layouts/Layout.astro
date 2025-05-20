@@ -1,0 +1,36 @@
+---
+import "../styles/global.css";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro Basics</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Acme&family=Anton&family=Bebas+Neue&family=Boldonse&family=Bungee&family=Dancing+Script:wght@400..700&family=Jaro:opsz@6..72&family=Lobster&family=Marck+Script&family=Oleo+Script:wght@400;700&family=Oswald:wght@200..700&family=Pacifico&family=Permanent+Marker&family=Playwrite+RO:wght@100..400&family=Protest+Strike&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+		
+	</head>
+	<body class="bg-primary">
+		<button class="fixed bottom-4 z-50 right-4 bg-[#030831] border text-lime-500  border-white/30  px-3 text-4xl font-bold py-1 rounded-full shadow-lg hover:bg-blue-950 focus:outline-none"
+		onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+		^
+	    </button>
+
+		<slot />
+	</body>
+</html>
+
+<style>
+	html,
+	body {
+		
+		margin: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>

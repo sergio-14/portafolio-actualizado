@@ -1,0 +1,134 @@
+---
+import { Icon } from "astro-icon/components";
+---
+<section id="proyectos" class="bg-transparent py-12 md:px-0 px-4 rounded-3xl scroll-m-20 w-full mx-auto container lg:max-w-5xl md:max-w-2xl">
+    <p class="font1 md:text-4xl text-2xl  flex items-center text-white py-5 md:ms-12 ms-6 ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="text-amber-400 me-4 bi bi-ui-checks-grid" viewBox="0 0 16 16">
+            <path d="M2 10h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1m9-9h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1m0 9a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1zm0-10a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM2 9a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2zm7 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2zM0 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.354.854a.5.5 0 1 0-.708-.708L3 3.793l-.646-.647a.5.5 0 1 0-.708.708l1 1a.5.5 0 0 0 .708 0z"/>
+        </svg>
+        Proyectos Realizados  
+    </p>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 lg:grid-cols-5 lg:grid-rows-5 lg:h-[800px]">
+  
+      <!-- Item 1 -->
+      <div class="border border-white/10 transition-transform duration-300 hover:md:scale-110 hover:scale-105 flex flex-col items-center text-center bg-gradient-to-t from-slate-950 to-transparent  hover:bg-gradient-to-t hover:from-[#ffffff36] hover:to-transparent   px-0 py-2 rounded-xl
+                  lg:col-span-2 lg:row-span-3">
+        <img src="assets/img/pro4.png" alt="Imagen 1" class="w-full h-72 rounded-lg" />
+        <h3 class="mt-2 text-lg text-lime-400 font1 px-2">Sitio Web Instituto de Investigación Interación Social y Posgrado</h3>
+        <p class="text-1xl font3 text-white px-2">Sistemas administrativo y gestor de cursos y certificaciones impartidos con generador de QR
+        </p>
+        <div class=" text-center">
+            <p class="text-1xl font1 text-white/50 flex items-center flex-wrap justify-center ">
+                Tecnologías:
+                <Icon name="django" class="size-7 " />
+                <Icon name="bootstrap" class="size-6 ms-2" />
+                <Icon name="postgresql" class="size-6 ms-2" />
+                <Icon name="railway_dark" class="size-6 ms-2" />
+                <a href="https://github.com/sergio-14/sitio-instituto-cis"  target="_blank" class="flex items-center md:ms-2 ms-0 px-4 justify-center md:w-auto w-70 rounded-full mt-2 bg-slate-950 text-white font1  border border-white/10">
+                    Repositorio <Icon name="github1" class="size-9 ms-2" />    
+                </a>
+            </p>
+          
+        </div>
+      </div>
+  
+      <!-- Item 2 -->
+      <div class="border border-white/10 transition-transform duration-300 hover:md:scale-110 hover:scale-105 flex flex-col items-center text-center bg-gradient-to-t from-slate-950 to-transparent  hover:bg-gradient-to-t hover:from-[#ffffff36] hover:to-transparent  p-2 rounded-xl
+                  lg:col-span-2 lg:row-span-3 lg:col-start-3">
+        
+        <h3 class="mt-2 text-lg text-amber-400 font1 px-2">Sitio Web Tienda Punto Anime </h3>
+        <p class="text-1xl font3 text-white px-2">Consumiendo api django y consumiendola con Angular para tienda Online 
+        </p>
+        <div class=" text-center pb-2">
+            <p class="text-1xl font1 text-white/50 flex items-center flex-wrap justify-center ">
+                Tecnologías:
+                <Icon name="django" class="size-7 " />
+                <Icon name="angular" class="size-6 ms-2 me-2" />
+                <svg width="30" height="18" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 0c-4 0-6.5 2-7.5 6 1.5-2 3.25-2.75 5.25-2.25 1.141.285 1.957 1.113 2.86 2.03C17.08 7.271 18.782 9 22.5 9c4 0 6.5-2 7.5-6-1.5 2-3.25 2.75-5.25 2.25-1.141-.285-1.957-1.113-2.86-2.03C20.42 1.728 18.718 0 15 0ZM7.5 9C3.5 9 1 11 0 15c1.5-2 3.25-2.75 5.25-2.25 1.141.285 1.957 1.113 2.86 2.03C9.58 16.271 11.282 18 15 18c4 0 6.5-2 7.5-6-1.5 2-3.25 2.75-5.25 2.25-1.141-.285-1.957-1.113-2.86-2.03C12.92 10.729 11.218 9 7.5 9Z" fill="#38BDF8"></path></svg>
+                <Icon name="railway_dark" class="size-6 ms-2" />
+                <a href="https://github.com/sergio-14/Sistema-completo-ventas-Ylse" target="_blank" class="flex items-center md:ms-2 ms-0 px-4 md:w-auto w-70 justify-center rounded-full mt-2 bg-slate-950 text-white font1  border border-white/10">
+                    Repositorio <Icon name="github1" class="size-9 ms-2" />    
+                </a>
+            </p>
+          
+        </div>
+        <img src="assets/img/pro5.png" alt="Imagen 2" class="w-full h-80 rounded-lg" />
+      </div>
+  
+      <!-- Item 3 -->
+      <div class="border border-white/10 transition-transform duration-300 hover:md:scale-110 hover:scale-105 flex flex-col items-center bg-gradient-to-t from-slate-950 to-transparent  hover:bg-gradient-to-t hover:from-[#ffffff36] hover:to-transparent  p-2 rounded-xl
+                  lg:row-span-2 lg:col-start-5">
+        <img src="assets/img/bufet.jpg" alt="Imagen 3" class="w-full h-35 md:h-25 mb-1 rounded-lg" />
+        <img src="assets/img/turtrini.jpg" alt="Imagen 3" class="w-full h-35 md:h-25 rounded-lg" />
+        <h3 class="mt-2 text-lg text-amber-400 font1">Proyectos Barios</h3>
+        <div class=" text-center flex items-center flex-wrap justify-center">
+            <p class="text-1xl font1 text-white/50">
+                Tecnologías:
+                
+            </p>
+            <p class="text-1xl font1 text-white/50 flex items-center flex-wrap justify-center ">
+                <Icon name="css" class="size-7 md:ms-0 ms-2 " />
+                <Icon name="astro" class="size-6 ms-2" />
+                <Icon name="typescript" class="size-6 ms-2" />
+                <Icon name="railway_dark" class="size-6 ms-2" />
+            </p>
+           
+        </div>
+      </div>
+  
+      <!-- Item 4 -->
+      <div class="border border-white/10 transition-transform duration-300 hover:md:scale-110 hover:scale-105 flex flex-col items-center bg-gradient-to-t from-slate-950 to-transparent  hover:bg-gradient-to-t hover:from-[#ffffff36] hover:to-transparent   p-2 rounded-xl
+                  lg:row-span-3 lg:col-start-5">
+        <img src="assets/img/pro2.png" alt="Imagen 4" class="w-full md:h-67 h-80 rounded-lg" />
+        <h3 class="mt-2 text-lg text-amber-400 font1">APP RSTAURANTE 7TOROS</h3>
+        <p class="text-1xl font3 text-white  text-center">Proyecto agilizar las ordenes 
+            y pedidos al publico y linea.
+        </p>
+        <div class=" text-center flex items-center flex-wrap justify-center">
+            <p class="text-1xl font1 text-white/50">
+                Tecnologías:
+                
+            </p>
+            <p class="text-1xl font1 text-white/50 flex items-center justify-center ">
+                <Icon name="django" class="size-7 " />
+                <Icon name="bootstrap" class="size-6 ms-2" />
+                <Icon name="postgresql" class="size-6 ms-2" />
+                <Icon name="railway_dark" class="size-6 ms-2" />
+            </p>
+            <a href="https://github.com/sergio-14/TursBol" target="_blank" class="flex md:ms-2 ms-0  md:w-auto w-70 items-center px-4 justify-center rounded-full mt-2 bg-slate-950 text-white font1  border border-white/10">
+                Repositorio <Icon name="github1" class="size-9 ms-2" />    
+            </a>
+        </div>
+    </div>
+  
+      <!-- Item 5 -->
+    
+    <div class="border border-white/10  transition-transform duration-300 hover:md:scale-110 hover:scale-105 bg-gradient-to-t from-slate-950 to-transparent flex flex-col p-4 rounded-xl lg:col-span-4  hover:bg-gradient-to-t hover:from-[#ffffff36] hover:to-transparent  lg:row-span-2 lg:row-start-4">      
+        <div class="grid md:grid-cols-12 grid-cols-1 gap-4  items-center">
+            <!-- Columna de texto (equivale a col-4) -->
+            <div class="md:col-span-4 col-span-12 ">              
+                <h3 class="text-2xl text-lime-400 pb-3 font1">Sitio Web Modalidad de Graduación C.I.S U.A.B</h3>             
+                <p class="text-1xl font3 text-white pb-2">Este proyecto fue realizado con el fin de optimizar las funcines y mejorar el servicio al panel           
+                    administrativo de la universidad debido a su amplio personal estudiantil en la modalidad de graduación.
+                </p>
+                <p class="text-1xl font1 text-white/50 flex items-center ">
+                    Tecnologías: 
+                    <Icon name="django" class="size-7 ms-2" />
+                    <Icon name="bootstrap" class="size-6 ms-2" />
+                    <Icon name="postgresql" class="size-6 ms-2" />
+                    <Icon name="railway_dark" class="size-6 ms-2" />
+                    <Icon name="docker" class="size-7 ms-2" />
+                </p>
+                <a href="https://github.com/sergio-14/CODIGO" target="_blank" class="flex items-center justify-center rounded-full mt-2 bg-slate-950 text-white font1  border border-white/10">
+                    Repositorio <Icon name="github1" class="size-9 ms-2" />    
+                </a>           
+            </div>          
+            <!-- Imagen (equivale a col-8) -->
+            <img src="assets/img/pro1.png" alt="Imagen 5" class="md:col-span-8 col-span-12 md:w-full md:h-67 h-auto rounded-lg " />
+        </div> 
+    </div>
+  
+    </div>
+  </section>
+  

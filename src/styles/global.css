@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+
+.font1 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font2 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.font3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.bg-primary {
+    background-color: #000524;
+}
+
+.img-avatar {
+    mask-image: linear-gradient(
+        black 80%,
+        transparent
+    );
+}
+
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(3);
+  }
+}
+.img-logo, .img-logo1, .img-logo2, .img-logo3 {
+  animation: pulse 8s infinite;
+}
+.img-logo  { animation-delay: 0s; }
+.img-logo1 { animation-delay: 2s; }
+.img-logo2 { animation-delay: 4s; }
+.img-logo3 { animation-delay: 6s; }
+
+.button-wrapper, .button-wrapper1 {
+    position: relative;
+    border-radius: 9999px;
+    padding: 1px;
+    overflow: hidden;
+  }
+  .button-wrapper2 {
+    position: relative;
+    border-radius: 9999px;
+    padding: 1px;
+    overflow: hidden;
+  }
+
+  .button-wrapper::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: conic-gradient(
+      from 0deg,
+      transparent,
+      #c3f8ff,
+      transparent 40%,
+      transparent 100%
+    );
+    z-index: -1;
+    opacity: 0;
+    border-radius: 9999px;
+    transition: opacity 0.3s;
+  }
+  .button-wrapper1::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: conic-gradient(
+      from 0deg,
+      transparent,
+      #ff0000,
+      transparent 40%,
+      transparent 100%
+    );
+    z-index: -1;
+    opacity: 0;
+    border-radius: 9999px;
+    transition: opacity 0.3s;
+  }
+  .button-wrapper2::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: conic-gradient(
+      from 0deg,
+      transparent,
+      #e5ff00,
+      transparent 40%,
+      transparent 100%
+    );
+    z-index: -1;
+    opacity: 0;
+    border-radius: 9999px;
+    transition: opacity 0.3s;
+  }
+  
+  .button-wrapper:hover::before {
+    opacity: 0.6;
+    animation: rotate 4s linear infinite;
+  }
+  .button-wrapper1:hover::before {
+    opacity: 0.6;
+    animation: rotate 4s linear infinite;
+  }
+  .button-wrapper2::before {
+    opacity: 0.6;
+    animation: rotate 4s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #02071b;
+    color: #ffffff;
+    border-radius: 9999px;
+    font-family: system-ui, -apple-system, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid rgba(190, 190, 190, 0.205);
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: rgb(9, 18, 39)
+  }
+  
+  .icon {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.25rem;
+  }
+
